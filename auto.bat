@@ -8,7 +8,7 @@ git diff --cached --quiet
 if not %errorlevel% equ 0 (
     git commit -m "自动同步更新"
     git push
-    echo 【%date% %time%】 已同步到 GitHub
+    echo 同步成功
 )
-timeout /t 8 /nobreak >nul
+timeout /t 1000 /nobreak >nul
 goto loop
