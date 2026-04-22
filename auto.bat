@@ -11,5 +11,5 @@ if errorlevel 1 (
     echo ? 同步成功
 )
 echo 等待下一次检查...
-timeout /t 10 /nobreak >nul
+timeout /t 1000 /nobreak >nul
 goto loop
