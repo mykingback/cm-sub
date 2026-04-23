@@ -6787,3 +6787,31 @@ URL: http://127.0.0.1:8199/bdg.yaml
 
 [sub-store] INFO: [BACKEND] body JSON limit: 30mb
 [sub-store] INFO: [BACKEND] listening on :::8299
+[sub-store] INFO: 正在更新订阅： sub
+[sub-store] INFO: 正在更新文件：mihomo...
+[sub-store] INFO: 正在下载文件：mihomo
+请求 User-Agent: Go-http-client/1.1
+[sub-store] INFO: Downloading...
+User-Agent: clash.meta/v1.19.23
+Timeout: 8000
+Proxy: undefined
+Insecure: false
+Preprocess: undefined
+URL: https://ghproxy.0081024.xyz/https://raw.githubusercontent.com/usbog232/clashmetadingyue/main/new-meta.ini
+[sub-store] INFO: statusCode: 200
+{}
+[sub-store] ERROR: Cannot apply operator Script Operator(shortcut script)! Reason: SyntaxError: Unexpected token '==='
+🌍 Sub-Store 下载文件失败
+❌ 无法下载文件：mihomo！
+🤔 原因：脚本操作 执行快捷脚本 失败 Unexpected token '==='
+
+
+[sub-store] ERROR: 脚本操作 执行快捷脚本 失败 Unexpected token '==='
+[sub-store] INFO: 正在下载订阅：sub
+请求 User-Agent: Go-http-client/1.1
+请求 target: V2Ray
+实际输出: V2Ray
+[sub-store] INFO: Pre-processor [Clash Pre-processor] activated
+[sub-store] INFO: Clash Parser is activated
+[sub-store] INFO: UUID may be invalid: 🇨🇭CH_2|1.6MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|12% monacoVPN
+[sub-store] INFO: UUID may be invalid: 🇨🇭CH_2|1.6MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|12% monacoVPN
