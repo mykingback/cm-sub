@@ -6780,3 +6780,10 @@ URL: http://127.0.0.1:8199/bdg.yaml
 实际输出: V2Ray
 [sub-store] INFO: Pre-processor [Clash Pre-processor] activated
 [sub-store] INFO: Clash Parser is activated
+
+┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
+     Sub-Store -- v2.22.4
+┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
+
+[sub-store] INFO: [BACKEND] body JSON limit: 30mb
+[sub-store] INFO: [BACKEND] listening on :::8299
