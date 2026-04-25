@@ -1,111 +1,9 @@
 proxies:
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s|GPT⁺-KR|YT-KR|NF|GM-KR|3%"
-    network: tcp
-    port: 9090
-    reality-opts:
-      public-key: ODzKAEHv91mzcUNt-DDm_Z-WYrkkufRhltaUWJ6xikY
-      short-id: ''
-    server: kr1.chinablog.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
-    servername: www.liblib.art
-  - cipher: none
-    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s|YT-HK|NF|D+"
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: ylnhh.us.ci
-      mode: websocket
-      mux: 0
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-      tls: true
-    port: 12126
-    server: 116.44.53.251
-    type: ss
-    udp: true
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|2%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-de-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-de-001.fastervpn.world
-    type: hysteria2
-    udp: true
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EC\U0001F1E7GB_1|1.8MB/s|GPT⁺-GB|YT-GB|NF-GB|D+|0%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-uk-004.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-uk-004.fastervpn.world
-    type: hysteria2
-    udp: true
-  - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
-    password: dongtaiwang.com
-    port: 40022
-    ports: 41000-42000
-    server: 163.172.113.118
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
-  - alpn:
-      - http%2F1.1%0A
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s|GPT-SG|YT-KR|NF|GM-KR|9%"
-    network: ws
-    port: 11300
-    server: 222.97.221.28
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: snzeys.edge-node-a1.fgfw.qzz.io
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snzeys.edge-node-a1.fgfw.qzz.io
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s|GPT⁺-JP|YT-JP|NF|3%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-002.fastervpn.world
-    type: hysteria2
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_2|1.4MB/s|GPT⁺-JP|YT-JP|NF|GM-JP|2%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-003.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-003.fastervpn.world
-    type: hysteria2
-    up: ''
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-005.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-005.fastervpn.world
-    type: hysteria2
   - client-fingerprint: chrome
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
     network: ws
     port: 443
     server: cloudflare-ip.mofashi.ltd
@@ -124,64 +22,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_2|1.5MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: cloudflare.seeck.cn
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_3|3.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: cdn.9889888.xyz
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1EF\U0001F1F5JP_3|4.6MB/s|GPT⁺|YT-JP|NF|D+|GM-JP|9%"
-    network: ws
-    port: 443
-    server: cf.008500.xyz
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_4|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
     network: ws
     port: 443
     server: 8.39.125.33
@@ -200,7 +41,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    name: "\U0001F1F8\U0001F1ECSG_3|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
     network: ws
     port: 443
     server: 172.64.145.194
@@ -219,7 +60,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_5|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    name: "\U0001F1F8\U0001F1ECSG_4|1.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
     network: ws
     port: 443
     server: 8.35.211.84
@@ -238,7 +79,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_6|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_5|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
     network: ws
     port: 443
     server: 104.18.37.7
@@ -253,28 +94,9 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_7|1.8MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: 104.18.42.77
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
   - cipher: none
     host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1EF\U0001F1F5JP_4|4.4MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|9%"
+    name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s|GPT⁺-JP|YT-JP|NF|D+|9%"
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     plugin: v2ray-plugin
@@ -294,7 +116,7 @@ proxies:
     type: ss
   - cipher: none
     host: ylnhh.us.ci
-    name: "\U0001F1EF\U0001F1F5JP_5|3.1MB/s|YT-JP|NF|D+|GM-JP"
+    name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s|YT-JP|NF|D+|9%"
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
     plugin: v2ray-plugin
@@ -313,28 +135,8 @@ proxies:
     tls: true
     type: ss
   - cipher: none
-    host: ylnhh.us.ci
-    name: "\U0001F1F8\U0001F1ECSG_8|1.2MB/s|YT-SG|NF-SG|D+|GM-SG"
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: ylnhh.us.ci
-      mode: websocket
-      mux: 0
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-      skip-cert-verify: true
-      sni: ylnhh.us.ci
-      tls: true
-    port: 443
-    server: 8.39.125.190
-    skip-cert-verify: true
-    sni: ylnhh.us.ci
-    tls: true
-    type: ss
-  - cipher: none
     host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1F8\U0001F1ECSG_9|3.2MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_6|1.4MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG"
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     plugin: v2ray-plugin
@@ -352,262 +154,11 @@ proxies:
     sni: mfvpn.fuchen.indevs.in
     tls: true
     type: ss
-  - cipher: none
-    host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s|GPT⁺-JP|YT-US|NF|D+|GM-US|9%"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: 0
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-      skip-cert-verify: true
-      sni: mfvpn.fuchen.indevs.in
-      tls: true
-    port: 443
-    server: 104.19.42.97
-    skip-cert-verify: true
-    sni: mfvpn.fuchen.indevs.in
-    tls: true
-    type: ss
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_2|3.2MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|9%"
-    network: ws
-    port: 18086
-    server: 59.18.139.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_3|2.1MB/s|GPT⁺-US|YT-KR|NF|D+|9%"
-    network: ws
-    port: 20024
-    server: 124.61.52.107
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_4|1.4MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|9%"
-    network: ws
-    port: 10101
-    server: 183.99.47.189
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_5|1.6MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|9%"
-    network: ws
-    port: 12276
-    server: 222.97.207.98
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 110
-    server: 64.186.247.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - auth: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-    name: "\U0001F1E6\U0001F1F9AT_1|2.6MB/s|GPT⁺-US|YT-DE|NF|D+|GM-DE|27%"
-    password: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-    port: 36002
-    server: 152.53.54.139
-    skip-cert-verify: true
-    sni: hk1.zongyunti.site
-    type: hysteria2
-    udp: true
-  - auth: github.com/Alvin9999-newpac/fanqiang
-    name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s|GPT⁺-FR|YT-RU|NF|D+|0%"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 12855
-    server: 83.243.86.103
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_6|3.4MB/s|GPT|YT-CN|NF|0%"
-    network: ws
-    port: 16617
-    server: planb.mojcn.com
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 255456b5-4b3e-449f-8dd1-99fd7d21415a
-    ws-opts:
-      headers:
-        Host: 37461892546988f67a6acfbe937e161b.mobgslb.tbcache.com
-      path: /%2F
-  - cipher: chacha20-ietf-poly1305
-    delay: 515
-    name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|100%"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.66
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    delay: 1702
-    name: "\U0001F1FA\U0001F1F8US_7|2.6MB/s|GPT⁺-US|YT-CN|NF|0%"
-    port: 180
-    server: 82.198.246.9
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    network: tcp
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1E6\U0001F1FAAU_1|2.2MB/s|GPT⁺-AU|YT-AU|NF-AU|GM-AU|5%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-au-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-au-001.fastervpn.world
-    type: hysteria2
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|4.6MB/s|YT-CN|D+|0%"
-    network: ws
-    port: 16622
-    server: planb.mojcn.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 255456b5-4b3e-449f-8dd1-99fd7d21415a
-    ws-opts:
-      headers:
-        Host: 37461892546988f67a6acfbe937e161b.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s|GPT⁺-NL|GM-NL|5%"
-    network: tcp
-    port: 59001
-    reality-opts:
-      _spider-x: /
-      public-key: alN88a4LJdVTW2JRU1jE-LYDAG2LhLEZoMSZRaCWWR4
-      short-id: '9629'
-    server: 146.103.114.12
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4de9bd4f-8d80-4637-8bdb-9e987c8a79bc
-    xudp: true
-    servername: www.m.vk.ru
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_2|2.0MB/s|GPT⁺-US|YT-HK|NF|D+|6%"
-    network: tcp
-    port: 7754
-    server: efan.dnsefan04881.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    servername: efan.dnsefan04881.com
   - client-fingerprint: chrome
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_10|4.8MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: cmcc.cloudflare.seeck.cn
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_11|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_7|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
     network: ws
     port: 443
     server: www.shopify.com
@@ -626,64 +177,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1FA\U0001F1F8US_8|2.3MB/s|GPT-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 443
-    server: www.ntu.edu.sg
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1EF\U0001F1F5JP_7|2.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
-    network: ws
-    port: 443
-    server: saas.sin.fan
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_12|2.7MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: 8.39.125.67
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_13|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    name: "\U0001F1F8\U0001F1ECSG_8|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
     network: ws
     port: 443
     server: 173.245.58.145
@@ -702,7 +196,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_14|3.4MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|100%"
+    name: "\U0001F1F8\U0001F1ECSG_9|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
     network: ws
     port: 443
     server: 104.18.35.94
@@ -721,45 +215,7 @@ proxies:
     ech-opts:
       enable: true
       query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_15|3.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: 104.18.33.125
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_16|3.1MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: 104.18.39.150
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_17|1.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_10|2.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
     network: ws
     port: 443
     server: 104.18.45.223
@@ -774,67 +230,9 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: cloudflare-ech.com
-    name: "\U0001F1F8\U0001F1ECSG_18|2.6MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|9%"
-    network: ws
-    port: 443
-    server: 104.18.46.131
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: hha.albertabobbi.ndjp.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: hha.albertabobbi.ndjp.net
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_9|3.3MB/s|YT-HK|NF|D+|8%"
-    network: tcp
-    port: 41102
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gddg-dx-bcache-18.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_3|1.9MB/s|YT-HK|NF|D+|2%"
-    network: tcp
-    port: 41105
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gddg-dx-bcache-18.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_4|2.3MB/s|YT-HK|NF|D+|0%"
-    network: tcp
-    port: 41101
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: upos-tf-all-tx.bilivideo.com
   - cipher: none
     host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1EF\U0001F1F5JP_8|1.3MB/s|GPT⁺|YT-JP|NF|D+|GM-JP"
+    name: "\U0001F1EF\U0001F1F5JP_3|1.9MB/s|GPT⁺-JP|YT-JP|NF|D+|9%"
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     plugin: v2ray-plugin
@@ -852,22 +250,9 @@ proxies:
     sni: mfvpn.fuchen.indevs.in
     tls: true
     type: ss
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_19|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: tcp
-    port: 41302
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: d1--cn-gotcha303.bilivideo.com
   - cipher: none
     host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1EF\U0001F1F5JP_9|2.4MB/s|GPT-JP|YT-JP|NF|D+|GM-JP"
+    name: "\U0001F1EF\U0001F1F5JP_4|2.0MB/s|GPT⁺-JP|YT-JP|NF|D+"
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     plugin: v2ray-plugin
@@ -885,42 +270,9 @@ proxies:
     sni: mfvpn.fuchen.indevs.in
     tls: true
     type: ss
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|3.4MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW|0%"
-    network: tcp
-    port: 41402
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: streamcenter.bilivideo.com
-  - cipher: none
-    host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1F8\U0001F1ECSG_20|2.1MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|9%"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: 0
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-      skip-cert-verify: true
-      sni: mfvpn.fuchen.indevs.in
-      tls: true
-    port: 443
-    server: 198.41.223.105
-    skip-cert-verify: true
-    sni: mfvpn.fuchen.indevs.in
-    tls: true
-    type: ss
   - cipher: none
     host: ylnhh.us.ci
-    name: "\U0001F1F8\U0001F1ECSG_21|2.6MB/s|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_11|2.1MB/s|YT-SG|NF-SG|D+|GM-SG"
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
     plugin: v2ray-plugin
@@ -938,85 +290,7 @@ proxies:
     sni: ylnhh.us.ci
     tls: true
     type: ss
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1E9ID_1|1.5MB/s|GPT⁺-ID|YT-ID|NF|GM-ID|0%"
-    network: tcp
-    port: 42003
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: d1--cn-gotcha308.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1F7KR_6|2.0MB/s|GPT⁺-KR|YT-KR|GM-KR|3%"
-    network: tcp
-    port: 41601
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: vxcode-hive-trace-v2.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_10|2.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|3%"
-    network: tcp
-    port: 41201
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: jssz-live-studio-ws.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FB\U0001F1F3VN_1|2.6MB/s|GPT⁺-VN|YT-VN|NF|GM-VN"
-    network: tcp
-    port: 42005
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: d1--cn-gotcha308.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1F3IN_1|2.1MB/s|GPT⁺-IN|YT-IN|NF-IN|GM-IN"
-    network: tcp
-    port: 42053
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: upos-sz-upcdnqn.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1FEMY_1|2.0MB/s|GPT⁺-MY|YT-MY|NF|GM-MY|1%"
-    network: tcp
-    port: 42045
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gddg-ct-01-16.bilivideo.com
-  - name: "\U0001F1FA\U0001F1F8US_10|1.9MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|8%"
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|8%"
     obfs: salamander
     obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
     password: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
@@ -1027,7 +301,7 @@ proxies:
     type: hysteria2
   - cipher: none
     host: mfvpn.fuchen.indevs.in
-    name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|GPT⁺-JP|YT-DE|NF|D+|33%"
+    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺-JP|YT-DE|NF|D+|9%"
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     plugin: v2ray-plugin
@@ -1045,184 +319,710 @@ proxies:
     sni: mfvpn.fuchen.indevs.in
     tls: true
     type: ss
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1FAAU_2|2.6MB/s|GPT⁺-SG|YT-AU|NF-SG|D+|GM-AU|3%"
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7 GB"
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|GPT⁺-US|YT-CN|NF|0%"
     network: tcp
-    port: 42006
-    server: fae49480e092.bangchenou.top
+    port: 180
+    server: 82.198.246.9
     skip-cert-verify: true
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    ws-path: /
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7 GB"
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s|GPT⁺-US|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.233
+    skip-cert-verify: true
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    ws-path: /
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F3C1 ZZ"
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s|GPT⁺-US|YT-CN|NF|41%"
+    network: tcp
+    port: 30829
+    server: v29.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-path: /
+  - cipher: chacha20-ietf
+    name: "\U0001F1E9\U0001F1EADE_2|1.8MB/s|GPT⁺-DE|YT-NL|NF|GM-NL|0%"
+    obfs: tls1.2_ticket_auth
+    password: dongtaiwang.com
+    port: 33336
+    protocol: auth_chain_a
+    server: ssr2.762988.xyz
+    type: ssr
+    udp: true
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|GPT⁺-JP|YT-CN|NF|D+|GM-JP|0%"
+    network: ws
+    port: 16632
+    server: m.cnmjin.net
+    type: vmess
+    udp: true
+    uuid: 8d95151d-d626-4ed2-83ac-29631f44085b
+    ws-opts:
+      headers:
+        Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s|GPT⁺-US|YT-HK|NF|D+"
+    network: tcp
+    port: 7754
+    server: efan.dnsefan04881.com
+    type: vmess
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "Relay_-\U0001F1F3\U0001F1F1NL_422|3.8MB/s"
+    network: tcp
+    port: 30830
+    server: v30.hdacd.com
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EE\U0001F1F7IR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_3|2.5MB/s|GPT⁺-US|YT-HK|D+|6%"
+    network: tcp
+    port: 7754
+    server: vm51544542.dns8656815.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    servername: vm51544542.dns8656815.com
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|3%"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 63.181.194.157
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7GB"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_4|2.8MB/s|GPT⁺-US|YT-CN|NF|0%"
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: true
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EE\U0001F1F7IR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_4|2.0MB/s|GPT⁺-US|YT-HK|NF|D+|6%"
+    network: tcp
+    port: 7754
+    server: vm51544542.dns8656815.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7FR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_5|3.8MB/s|GPT⁺-JP|YT-CN|NF|D+|GM-JP|0%"
+    network: ws
+    port: 16632
+    server: m.cnmjin.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 8d95151d-d626-4ed2-83ac-29631f44085b
+    ws-opts:
+      headers:
+        HOST: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
+        Host: m.cnmjin.net
+      path: /
+    servername: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_6|1.3MB/s|GPT⁺-SG|YT-HK|NF|D+"
+    network: ws
+    port: 8443
+    server: 38.22.94.56
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: d1--cn-gotcha308.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_11|3.1MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
-    network: tcp
-    port: 41501
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_7|1.6MB/s|YT-HK|NF|D+"
+    network: ws
+    port: 2053
+    server: 45.39.190.197
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: c1--cn-gotcha08.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_4|2.0MB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|17%"
-    network: tcp
-    port: 41801
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_8|1.5MB/s|GPT⁺-SG|YT-HK|NF|D+|9%"
+    network: ws
+    port: 8443
+    server: 45.39.190.197
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: vxcode-hive-trace-v2.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_2|2.6MB/s|GPT⁺-AE|YT-AE|NF|GM-AE|3%"
-    network: tcp
-    port: 42051
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_12|1.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    network: ws
+    port: 2053
+    server: 91.192.81.154
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: upos-sz-upcdnqn.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_12|2.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: tcp
-    port: 41502
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_13|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    port: 443
+    server: 206.189.147.193
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: c1--cn-gotcha08.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_2|2.5MB/s|GPT⁺-GB|YT-GB|NF-GB|GM-GB|3%"
-    network: tcp
-    port: 41702
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_14|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    port: 443
+    server: 47.82.155.79
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: vxcode-hive-trace-v2.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_3|2.5MB/s|GPT⁺-GB|YT-GB|NF-GB|GM-GB|3%"
-    network: tcp
-    port: 41701
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_15|1.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    port: 443
+    server: 159.223.50.79
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: vxcode-hive-trace-v2.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_2|2.5MB/s|GPT⁺-FR|YT-FR|GM-FR|3%"
-    network: tcp
-    port: 42032
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
+    network: ws
+    port: 443
+    server: 154.17.225.73
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gdgz-gd-live-03.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_13|2.7MB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
-    network: tcp
-    port: 41504
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_6|2.8MB/s|GPT⁺|YT-US|NF|D+|9%"
+    network: ws
+    port: 2053
+    server: 69.63.194.165
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: c1--cn-gotcha08.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_14|2.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
-    network: tcp
-    port: 41503
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
+    network: ws
+    port: 443
+    server: 69.63.193.2
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: c1--cn-gotcha08.bilivideo.com
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_8|1.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
+    network: ws
+    port: 2053
+    server: 64.186.230.135
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_9|1.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
+    network: ws
+    port: 8443
+    server: 64.186.242.91
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_10|2.3MB/s|GPT⁺-US|YT-US|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 185.148.14.85
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_16|1.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    port: 443
+    server: ctcc.cloudflare.seeck.cn
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_17|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    network: ws
+    port: 443
+    server: cucc.cloudflare.seeck.cn
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1FA\U0001F1F8US_11|1.3MB/s|GPT⁺-US|YT-US|NF|D+|9%"
+    network: ws
+    port: 443
+    server: cloudflare.czkcdn.cn
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_18|1.8MB/s|YT-SG|9%"
+    network: ws
+    port: 443
+    server: cf.zhetengsha.eu.org
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1FA\U0001F1F8US_12|2.1MB/s|GPT⁺-JP|YT-US|NF|9%"
+    network: ws
+    port: 443
+    server: sub.danfeng.eu.org
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1EF\U0001F1F5JP_5|1.4MB/s|GPT⁺-JP|YT-JP|NF|D+|9%"
+    network: ws
+    port: 443
+    server: cf.130519.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_19|1.3MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    network: ws
+    port: 443
+    server: store.ubi.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_20|1.3MB/s|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: cdns.doon.eu.org
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1E9\U0001F1EADE_4|1.2MB/s|GPT⁺-DE|YT-DE|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 162.159.153.199
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1E9\U0001F1EADE_5|1.3MB/s|GPT⁺-DE|YT-DE|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 104.26.15.106
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1E9\U0001F1EADE_6|1.4MB/s|GPT⁺-DE|YT-DE|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 172.67.74.10
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_21|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    network: ws
+    port: 443
+    server: 172.64.152.111
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1FA\U0001F1F8US_13|2.0MB/s|GPT⁺-US|YT-US|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 104.17.219.27
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_22|2.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    port: 443
+    server: 172.64.48.226
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s|GPT⁺-NL|YT-NL|NF|D+|0%"
+    network: ws
+    port: 443
+    server: 104.21.64.91
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1E9\U0001F1EADE_7|1.6MB/s|GPT⁺-DE|YT-DE|NF|D+|0%"
+    network: ws
+    port: 443
+    server: 104.26.8.117
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_23|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
+    network: ws
+    port: 443
+    server: 8.35.211.129
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_24|1.5MB/s|GPT⁺|YT-SG|NF-SG|D+|GM-SG|9%"
+    network: ws
+    port: 443
+    server: 8.39.125.1
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_25|1.4MB/s|GPT⁺|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    port: 443
+    server: 172.64.156.112
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: hha.albertabobbi.ndjp.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: hha.albertabobbi.ndjp.net
   - cipher: none
     host: ylnhh.us.ci
-    name: "\U0001F1ED\U0001F1F0HK_5|2.1MB/s|YT-HK|NF|D+|9%"
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: ylnhh.us.ci
-      mode: websocket
-      mux: 0
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-      sni: ylnhh.us.ci
-      tls: true
-    port: 12126
-    server: 116.44.53.251
-    sni: ylnhh.us.ci
-    tls: true
-    type: ss
-    udp: true
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1E7\U0001F1ECBG_1|2.7MB/s|GPT⁺-BG|YT-TR|NF-BG|GM-TR|0%"
-    network: tcp
-    port: 42048
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: upos-sz-upcdnqn.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1F8RS_1|2.5MB/s|GPT⁺-XK|YT-US|NF-RS|D+|GM-AL|0%"
-    network: tcp
-    port: 42066
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: upos-sz-upcdnqn.bilivideo.com
-  - cipher: none
-    host: ylnhh.us.ci
-    name: "\U0001F1FA\U0001F1F8US_15|1.2MB/s|YT-US|NF|D+|GM-US"
+    name: "\U0001F1EF\U0001F1F5JP_6|1.4MB/s|YT-JP|NF|D+"
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
     plugin: v2ray-plugin
@@ -1234,338 +1034,651 @@ proxies:
       skip-cert-verify: true
       sni: ylnhh.us.ci
       tls: true
-    port: 65002
-    server: 43.130.134.123
+    port: 443
+    server: 162.159.38.121
     skip-cert-verify: true
     sni: ylnhh.us.ci
     tls: true
     type: ss
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1F4RO_1|2.4MB/s|GPT⁺-RO|YT-RO|NF|D+|GM-RO|0%"
-    network: tcp
-    port: 42038
-    server: fae49480e092.bangchenou.top
-    skip-cert-verify: true
-    tfo: false
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1EF\U0001F1F5JP_7|2.0MB/s|YT-JP|NF|D+|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      sni: ylnhh.us.ci
+      tls: true
+      skip-cert-verify: false
+    port: 443
+    server: registry.cyou
+    skip-cert-verify: false
+    sni: ylnhh.us.ci
     tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gddg-ct-01-16.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_1|2.5MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|5%"
-    network: tcp
-    port: 42028
-    server: fae49480e092.bangchenou.top
+    type: ss
+    udp: false
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1F8\U0001F1ECSG_26|1.6MB/s|YT-SG|NF-SG|D+|GM-SG|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 162.159.43.150
     skip-cert-verify: true
-    tfo: false
+    sni: ylnhh.us.ci
     tls: true
-    type: vless
-    udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gdgz-gd-live-03.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F9\U0001F1F7TR_1|2.5MB/s|GPT⁺-TR|YT-TR|NF|D+|GM-TR"
-    network: tcp
-    port: 42014
-    server: fae49480e092.bangchenou.top
+    type: ss
+  - name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s|GPT⁺-KR|YT-KR|NF|GM-KR|5%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
     skip-cert-verify: true
-    tfo: false
+    sni: testkr3.ssv.vc
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: d1--cn-gotcha308.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1FD\U0001F1F0XK_1|2.6MB/s|GPT⁺-MK|YT-US|NF-MK|D+|GM-US|0%"
-    network: tcp
-    port: 42025
-    server: fae49480e092.bangchenou.top
+    username: test
+  - name: "\U0001F1FA\U0001F1F8US_14|1.4MB/s|GPT⁺-US|YT-CN|NF|D+|9%"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-018.fastervpn.world
     skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
+    sni: vpn-us-018.fastervpn.world
+    type: hysteria2
     udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: cn-gdgz-gd-01-03.bilivideo.com
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1F2IM_1|2.6MB/s|GPT⁺-IM|YT-GB|NF-IM|D+|GM-IM|0%"
-    network: tcp
-    port: 42010
-    server: fae49480e092.bangchenou.top
+  - name: "\U0001F1E9\U0001F1EADE_8|2.1MB/s|GPT⁺-NL|YT-RU|NF|D+|0%"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 29900
+    server: 178.18.147.66
     skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+  - alpn:
+      - h3
+    name: "\U0001F1ED\U0001F1F0HK_9|2.5MB/s|YT-HK|NF|D+|0%"
+    password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+    port: 5555
+    server: 45.192.195.52
+    skip-cert-verify: true
+    sni: 45.192.195.52
     tfo: false
-    tls: true
-    type: vless
+    type: hysteria2
     udp: true
-    uuid: 0020742b-ad78-458a-a47b-1382db29e50f
-    servername: d1--cn-gotcha308.bilivideo.com
-  - client-fingerprint: random
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1F0\U0001F1F7KR_2|1.7MB/s|NF|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 24095
+    server: 211.48.77.114
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_11|4.5MB/s|GPT⁺-US|YT-JP|NF|D+|9%"
+    http-opts:
+      path:
+        - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+    name: "\U0001F1E8\U0001F1EDCH_1|2.7MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|12%"
+    network: http
+    port: 22
+    server: 172.65.111.43
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: monacoVPN
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1EE\U0001F1F3IN_1|2.1MB/s|YT-IN|NF-IN|GM-IN|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 20.235.105.146
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1E9\U0001F1EADE_9|2.0MB/s|GPT-JP|YT-DE|NF|D+|9%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 443
+    server: 104.26.8.188
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1E9\U0001F1EADE_10|2.0MB/s|YT-DE|NF|D+|0%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 172.67.74.150
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1FA\U0001F1F8US_15|1.7MB/s|YT-US|NF|D+|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 57239
+    server: 141.148.164.46
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1E9\U0001F1EADE_11|1.7MB/s|YT-DE|NF|D+|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 162.159.153.47
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1E9\U0001F1EADE_12|2.0MB/s|GPT⁺-JP|YT-DE|NF|D+|9%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+      skip-cert-verify: false
+    port: 1010
+    server: 89.58.13.151
+    skip-cert-verify: false
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+    udp: false
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1EC\U0001F1E7GB_1|1.8MB/s|GPT⁺-JP|YT-GB|NF-GB|D+|GM-GB"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 8443
+    server: 57.128.178.63
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s|YT-NL|NF|D+|GM-NL"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 8443
+    server: 212.192.20.65
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1FA\U0001F1F8US_16|2.0MB/s|GPT⁺-JP|YT-US|NF|D+|GM-US"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 2053
+    server: 44.217.235.114
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1F3\U0001F1F1NL_4|2.3MB/s|GPT⁺-JP|YT-NL|NF|D+|GM-NL|9%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 443
+    server: 178.208.79.186
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1FA\U0001F1F8US_17|1.3MB/s|GPT⁺-JP|YT-US|NF|D+|GM-US|9%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 449
+    server: 5.161.22.2
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1F3\U0001F1F1NL_5|1.5MB/s|GPT⁺-JP|YT-NL|NF|D+|9%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 8443
+    server: 185.193.159.19
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1E9\U0001F1EADE_13|1.6MB/s|YT-DE|NF|D+|0%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 45.147.248.115
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1E9\U0001F1EADE_14|1.9MB/s|YT-DE|NF|D+"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 139.162.150.12
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1FA\U0001F1F8US_18|1.8MB/s|YT-US|NF|D+|GM-US|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 198.23.150.223
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1F3\U0001F1F1NL_6|1.6MB/s|YT-NL|NF|D+|GM-NL|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 66.248.207.52
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: mfvpn.fuchen.indevs.in
+    name: "\U0001F1F3\U0001F1F1NL_7|1.4MB/s|GPT⁺-JP|YT-NL|NF|D+|9%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: 0
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: true
+      sni: mfvpn.fuchen.indevs.in
+      tls: true
+    port: 443
+    server: 103.90.75.121
+    skip-cert-verify: true
+    sni: mfvpn.fuchen.indevs.in
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1F3\U0001F1F1NL_8|1.6MB/s|YT-NL|NF|D+|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 5.252.118.47
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - cipher: none
+    host: ylnhh.us.ci
+    name: "\U0001F1E9\U0001F1EADE_15|1.4MB/s|YT-DE|NF|D+|9%"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      sni: ylnhh.us.ci
+      tls: true
+    port: 443
+    server: 83.147.253.18
+    skip-cert-verify: true
+    sni: ylnhh.us.ci
+    tls: true
+    type: ss
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_27|2.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|9%"
     network: ws
     port: 443
-    server: blog.88lin.eu.org
+    server: da.mfa.gov.ua
+    skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     ws-opts:
       headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        Host: 1-aym.pages.dev
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_12|4.5MB/s|GPT⁺-US|YT-JP|NF|D+|9%"
+    servername: 1-aym.pages.dev
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1EF\U0001F1F5JP_8|2.5MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|9%"
     network: ws
     port: 443
-    server: cf.tencentapp.cn
+    server: cdn.7zz.cn
+    skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     ws-opts:
       headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        Host: 2-ee1.pages.dev
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_6|2.5MB/s|GPT⁺-US|YT-HK|NF|D+|9%"
+    servername: 2-ee1.pages.dev
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_28|2.6MB/s|GPT⁺|YT-SG|NF-SG|D+|GM-SG"
     network: ws
     port: 443
-    server: 43.168.16.112
+    server: www.mc.js.cool
+    skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     ws-opts:
       headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        Host: 3-93f.pages.dev
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_7|1.3MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|9%"
+    servername: 3-93f.pages.dev
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F8\U0001F1ECSG_29|1.6MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG"
     network: ws
-    port: 23023
-    server: 121.150.130.214
+    port: 443
+    server: store.ubi.com
+    skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     ws-opts:
       headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
+        Host: 3-7gj.pages.dev
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_8|2.7MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|9%"
+    servername: 3-7gj.pages.dev
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s|GPT⁺-US|YT-TW|NF|D+|GM-TW"
     network: ws
-    port: 37810
-    server: 59.21.252.156
+    port: 443
+    server: 114.33.57.170
+    skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     ws-opts:
       headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        Host: 3-85q.pages.dev
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_9|2.0MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|9%"
+    servername: 3-85q.pages.dev
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1FA\U0001F1F8US_19|1.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
     network: ws
-    port: 20201
-    server: 222.96.225.202
+    port: 8443
+    server: 88.119.175.221
+    skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     ws-opts:
       headers:
-        Host: subtaler.trevely.de5.net
+        Host: 2-eox.pages.dev
+      path: /
+    servername: 2-eox.pages.dev
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: "\U0001F1F0\U0001F1F7KR_3|2.6MB/s|GPT⁺-KR|YT-KR|NF|D+|GM-KR|9%"
+    network: ws
+    port: 443
+    server: 134.185.109.244
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    ws-opts:
+      headers:
+        Host: 1-aym.pages.dev
+      path: /
+    servername: 1-aym.pages.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_16|2.5MB/s|GPT⁺-DE|YT-DE|NF|D+|9%"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 152.53.236.205
+    skip-cert-verify: true
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: kfm-bn0.pages.dev
         User-Agent: >-
           Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
           Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US_16|1.9MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 8082
-    server: 154.26.185.154
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_17|1.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 111
-    server: 64.186.247.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_18|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 211
-    server: 64.186.247.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_19|2.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 1801
-    server: 64.186.249.76
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.116 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_20|1.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|9%"
-    network: ws
-    port: 10443
-    server: 154.26.178.175
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8e123fe-d7c1-4614-b962-c328239afb7f
-    ws-opts:
-      headers:
-        Host: subtaler.trevely.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: subtaler.trevely.de5.net
-  - cipher: none
-    name: "\U0001F1F8\U0001F1ECSG_22|1.5MB/s|YT-SG|NF-SG|D+|GM-SG"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: 0
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-      tls: true
+    name: "\U0001F1F3\U0001F1F1NL_9|1.4MB/s|GPT⁺-NL|YT-RU|NF|D+|0%"
+    network: tcp
     port: 443
-    server: cdns.doon.eu.org
-    type: ss
+    reality-opts:
+      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+      short-id: '11e2'
+    server: 216.57.105.74
+    tls: true
+    type: vless
     udp: true
-  - cipher: none
-    name: "\U0001F1EF\U0001F1F5JP_13|2.6MB/s|YT-JP|NF|D+|GM-JP"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: 0
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-      tls: true
-    port: 443
-    server: cf.008500.xyz
-    type: ss
-    udp: true
+    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+    xudp: true
+    servername: yahoo.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
