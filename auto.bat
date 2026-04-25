@@ -8,5 +8,5 @@ if errorlevel 1 (
     git commit -m "auto sync" 2>nul
     git push 2>nul
 )
-timeout /t 10 /nobreak >nul
+timeout /t 200 /nobreak >nul
 goto loop
