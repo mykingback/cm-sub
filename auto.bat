@@ -1,12 +1,17 @@
 @echo off
-cd /d D:\APP6\cmJIEDIAN\output
+:: 强制进入正确目录
+cd /d "D:\APP6\cmJIEDIAN\output"
 
 :loop
-git add . 2>nul
-git diff --cached --quiet 2>nul
-if errorlevel 1 (
-    git commit -m "auto sync" 2>nul
-    git push 2>nul
+:: 检测变更
+git add .
+git diff --cached --quiet
+if %errorlevel% EQU 1 (
+    git commit -m "auto sync update"
+    git push
+    echo.
+    echo ========== Sync Success ==========
 )
-timeout /t 200 /nobreak >nul
+:: 设置间隔，这里设20秒
+timeout /t 20 /nobreak >nul
 goto loop
