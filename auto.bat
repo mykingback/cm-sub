@@ -1,15 +1,12 @@
 @echo off
-chcp 65001
-cd /d "D:\APP6\cm节点池\output"
+cd /d D:\APP6\cmJIEDIAN\output
 
 :loop
-git add .
-git diff --cached --quiet
+git add . 2>nul
+git diff --cached --quiet 2>nul
 if errorlevel 1 (
-    git commit -m "auto sync"
-    git push
-    echo ? 同步成功
+    git commit -m "auto sync" 2>nul
+    git push 2>nul
 )
-echo 等待下一次检查...
-timeout /t 100 /nobreak >nul
+timeout /t 10 /nobreak >nul
 goto loop
