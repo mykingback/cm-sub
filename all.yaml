@@ -1,21 +1,6 @@
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|10%"
-      network: ws
-      port: 443
-      server: 154.17.225.73
-      servername: sni.skylee4.cloudns.ch
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-      ws-opts:
-        headers:
-            Host: sni.skylee4.cloudns.ch
-        path: /proxyip=ProxyIP.CMLiussss.net
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s|YT-HK|NF|D+"
+      name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s|GPT-US|YT-HK|NF|D+"
       network: ws
       port: 443
       server: 8.223.63.189
@@ -29,256 +14,7 @@ proxies:
         headers:
             Host: sni.skylee4.cloudns.ch
         path: /proxyip=ProxyIP.CMLiussss.net
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1F8\U0001F1ECSG_1|1.5MB/s|YT-SG|NF-SG|D+|GM-SG"
-      network: ws
-      port: 443
-      server: mfa.gov.ua
-      servername: 3-bio.pages.dev
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 3-bio.pages.dev
-        path: /proxyip=ProxyIP.DE.owg.dpdns.org
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1F8\U0001F1ECSG_2|2.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|10%"
-      network: ws
-      port: 443
-      server: tajikistan.mfa.gov.ua
-      servername: 3-2ll.pages.dev
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 3-2ll.pages.dev
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|4.6MB/s|GPT⁺-SG|YT-JP|NF|D+|GM-JP|10%"
-      network: ws
-      port: 2053
-      server: cfxr.eu.org
-      servername: iip26mmf.cdn-edge-jp.chinav.indevs.in
-      tls: true
-      type: vless
-      udp: true
-      uuid: 26524cce-d514-4014-a426-365fb266a14d
-      ws-opts:
-        headers:
-            Host: iip26mmf.cdn-edge-jp.chinav.indevs.in
-        path: /danfeng?ed=2560
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|2%"
-      obfs: ""
-      obfs-password: ""
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: "443"
-      server: vpn-de-002.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-de-002.fastervpn.world
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s|GPT⁺-JP|D+|GM-TW|33%"
-      password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
-      port: 6533
-      server: jpaws.ccwink.photos
-      skip-cert-verify: true
-      sni: jpdigital.ccwink.cc
-      tfo: false
-      type: hysteria2
-    - client-fingerprint: random
-      encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_1|1.6MB/s|GPT⁺-US|YT-KR|NF|D+|GM-KR|10%"
-      network: ws
-      port: "443"
-      server: 158.180.72.60
-      servername: subsources.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63a2a72-0347-48ae-884e-55c2fc5e5fbc
-      ws-opts:
-        headers:
-            Host: subsources.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: random
-      encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_2|2.0MB/s|GPT⁺-US|YT-KR|NF|D+|10%"
-      network: ws
-      port: "443"
-      server: 152.67.208.8
-      servername: subsources.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63a2a72-0347-48ae-884e-55c2fc5e5fbc
-      ws-opts:
-        headers:
-            Host: subsources.pages.dev
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_3|3.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|10%"
-      network: ws
-      port: 443
-      server: 108.162.193.0
-      servername: aniub8bfcf95.a-aniu-all.us.ci
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: aniub8bfcf95.a-aniu-all.us.ci
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1ECSG_4|3.0MB/s|GPT⁺-US|YT-SG|NF-SG|D+|GM-SG|10%"
-      network: ws
-      port: 443
-      server: 188.164.248.126
-      servername: aniub8bfcf95.a-aniu-all.us.ci
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: aniub8bfcf95.a-aniu-all.us.ci
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1ECSG_5|2.9MB/s|GPT-AU|YT-SG|NF-SG|D+|GM-SG|10%"
-      network: ws
-      port: 443
-      server: 188.164.248.123
-      servername: aniub8bfcf95.a-aniu-all.us.ci
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: aniub8bfcf95.a-aniu-all.us.ci
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1ECSG_6|3.1MB/s|GPT⁺|YT-SG|NF-SG|D+|GM-SG|10%"
-      network: ws
-      port: 443
-      server: 8.39.125.88
-      servername: aniub8bfcf95.a-aniu-all.us.ci
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: aniub8bfcf95.a-aniu-all.us.ci
-        path: /?ed=2560
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
-      password: dongtaiwang.com
-      port: 40022
-      server: 163.172.113.118
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_2|5.1MB/s|GPT|YT-HK|NF|D+"
-      network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: 8443
-      server: 43.161.238.135
-      skip-cert-verify: true
-      sni: Koma-YT.PAGeS.Dev
-      tls: true
-      type: trojan
-      ws-opts:
-        headers:
-            Host: Koma-YT.PAGeS.Dev
-        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: encryptedsni.com
-      name: "\U0001F1EF\U0001F1F5JP_3|4.6MB/s|GPT⁺-SG|YT-JP|NF|D+|10%"
-      network: ws
-      port: 443
-      server: 38.47.126.48
-      servername: mug.support.gfw.hidns.co
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 26524cce-d514-4014-a426-365fb266a14d
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: mug.support.gfw.hidns.co
-        max-early-data: 2560
-        path: /danfeng
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE_2|1.6MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|3%"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-de-001.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-de-001.fastervpn.world
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1EC\U0001F1E7GB"
-      name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s|GPT⁺-GB|YT-GB|NF-GB|GM-GB|11%"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-uk-002.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-uk-002.fastervpn.world
-      type: hysteria2
-      udp: true
-    - client-fingerprint: random
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|3.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|10%"
-      network: ws
-      port: "443"
-      server: 209.146.115.209
-      servername: subsources.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63a2a72-0347-48ae-884e-55c2fc5e5fbc
-      ws-opts:
-        headers:
-            Host: subsources.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_7|3.4MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|10%"
-      network: ws
-      port: 443
-      server: 162.159.0.0
-      servername: aniub8bfcf95.a-aniu-all.us.ci
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: aniub8bfcf95.a-aniu-all.us.ci
-        path: /?ed=2560
-    - name: "\U0001F1EF\U0001F1F5JP_4|3.8MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.6MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
       network: ws
       password: 6bff4694-7f3a-4062-81c6-ea224fd86078
       port: 443
@@ -291,7 +27,7 @@ proxies:
             Host: qq.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_5|3.6MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
+      name: "\U0001F1EF\U0001F1F5JP_2|7.7MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
       network: ws
       port: 443
       server: cf.yfjc.sbs
@@ -305,7 +41,7 @@ proxies:
             Host: yy.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_8|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
       server: nexusmods.com
@@ -319,7 +55,7 @@ proxies:
             Host: tt.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_9|5.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      name: "\U0001F1F8\U0001F1ECSG_2|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
       server: da.mfa.gov.ua
@@ -333,7 +69,7 @@ proxies:
             Host: ff.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_10|2.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|10%"
+      name: "\U0001F1F8\U0001F1ECSG_3|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
       server: cloudflare-ip.mofashi.ltd
@@ -347,21 +83,7 @@ proxies:
             Host: pp.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_11|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-      network: ws
-      port: 443
-      server: cloudflare.seeck.cn
-      servername: hh.jfpct.sbs
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
-      ws-opts:
-        headers:
-            Host: hh.jfpct.sbs
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_6|3.3MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
+      name: "\U0001F1EF\U0001F1F5JP_3|3.2MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
       network: ws
       port: 443
       server: www.cnae.top
@@ -375,7 +97,7 @@ proxies:
             Host: tt.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_12|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      name: "\U0001F1F8\U0001F1ECSG_4|1.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
       server: cdn.9889888.xyz
@@ -389,7 +111,7 @@ proxies:
             Host: ff.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_13|2.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      name: "\U0001F1F8\U0001F1ECSG_5|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
       server: yx.cloudflare.182682.xyz
@@ -403,21 +125,7 @@ proxies:
             Host: pp.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_7|2.6MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: tt.jfpct.sbs
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
-      ws-opts:
-        headers:
-            Host: tt.jfpct.sbs
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_14|1.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      name: "\U0001F1F8\U0001F1ECSG_6|3.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
       server: cf.008500.xyz
@@ -431,7 +139,7 @@ proxies:
             Host: ff.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_8|2.6MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
+      name: "\U0001F1EF\U0001F1F5JP_4|3.0MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
       network: ws
       port: 443
       server: cf.130519.xyz
@@ -445,21 +153,7 @@ proxies:
             Host: tt.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_15|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-      network: ws
-      port: 443
-      server: store.ubi.com
-      servername: ff.jfpct.sbs
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
-      ws-opts:
-        headers:
-            Host: ff.jfpct.sbs
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_16|2.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      name: "\U0001F1F8\U0001F1ECSG_7|1.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
       network: ws
       port: 443
       server: cdns.doon.eu.org
@@ -472,11 +166,179 @@ proxies:
         headers:
             Host: pp.jfpct.sbs
         path: /?ed=2560
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
+      password: dongtaiwang.com
+      port: 41283
+      ports: 41283,40022,41000-42000
+      server: 163.172.113.118
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s|YT-HK|NF|D+"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 5700
+      server: 43.135.30.215
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+    - auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+      name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s|GPT⁺-NL|YT-NL|NF|8%"
+      obfs: salamander
+      obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+      password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+      port: 8932
+      server: nrealistic.nn-foto.ru
+      skip-cert-verify: true
+      sni: nrealistic.nn-foto.ru
+      type: hysteria2
+      udp: true
+    - name: "\U0001F3F4‍☠️ 未知地区 | Unknown|1.8MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 443
+      server: 43.168.16.112
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_17|2.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_8|5.3MB/s|GPT"
+      network: ws
+      port: "2053"
+      server: 8.39.125.115
+      servername: tristandeng.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+      ws-opts:
+        headers:
+            Host: tristandeng.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: ""
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: vpn-us-005.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-005.fastervpn.world
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
+      password: dongtaiwang.com
+      port: 41211
+      ports: 41283,40022,41000-42000
+      server: 163.172.113.118
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      tfo: false
+      type: hysteria2
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      name: "\U0001F1F9\U0001F1FCTW_1|1.9MB/s|GPT⁺-TW|NF|D+|GM-TW"
+      password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+      port: 50099
+      server: ncmrcg000139ss7.cybervena.com
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-003.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-003.fastervpn.world
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|3.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|10%"
       network: ws
       port: 443
-      server: cf.090227.xyz
+      server: 209.146.115.209
+      servername: sni.skylee4.cloudns.ch
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+      ws-opts:
+        headers:
+            Host: sni.skylee4.cloudns.ch
+        path: /proxyip=ProxyIP.CMLiussss.net
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|10%"
+      network: ws
+      port: 2053
+      server: 154.17.8.126
+      servername: sni.skylee4.cloudns.ch
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+      ws-opts:
+        headers:
+            Host: sni.skylee4.cloudns.ch
+        path: /proxyip=ProxyIP.CMLiussss.net
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_9|5.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: nexusmods.com
+      servername: ff.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: ff.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_10|3.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: da.mfa.gov.ua
+      servername: tt.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: tt.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_11|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: cloudflare-ip.mofashi.ltd
       servername: hh.jfpct.sbs
       skip-cert-verify: false
       tls: true
@@ -487,10 +349,30 @@ proxies:
             Host: hh.jfpct.sbs
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_18|1.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_12|3.6MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG"
       network: ws
       port: 443
-      server: 198.41.223.110
+      server: ctcc.cloudflare.seeck.cn
+      servername: yy.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: yy.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_13|3.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: cmcc.cloudflare.seeck.cn
       servername: ff.jfpct.sbs
       skip-cert-verify: false
       tls: true
@@ -499,4 +381,174 @@ proxies:
       ws-opts:
         headers:
             Host: ff.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_14|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: cucc.cloudflare.seeck.cn
+      servername: tt.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: tt.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_15|2.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: www.shopify.com
+      servername: hh.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: hh.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|10%"
+      network: ws
+      port: 443
+      server: www.ntu.edu.sg
+      servername: pp.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: pp.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1EF\U0001F1F5JP_5|4.3MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
+      network: ws
+      port: 443
+      server: sub.danfeng.eu.org
+      servername: yy.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: yy.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1EF\U0001F1F5JP_6|3.2MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|10%"
+      network: ws
+      port: 443
+      server: cf.130519.xyz
+      servername: ff.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: ff.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_16|1.4MB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG"
+      network: ws
+      port: 443
+      server: cf.090227.xyz
+      servername: pp.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: pp.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_17|1.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: 8.35.211.145
+      servername: ff.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: ff.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_18|2.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|10%"
+      network: ws
+      port: 443
+      server: 162.159.43.0
+      servername: hh.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: hh.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_19|2.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: 198.41.223.175
+      servername: pp.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: pp.jfpct.sbs
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1F8\U0001F1ECSG_20|2.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+      network: ws
+      port: 443
+      server: 198.41.223.211
+      servername: yy.jfpct.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+      ws-opts:
+        headers:
+            Host: yy.jfpct.sbs
         path: /?ed=2560
