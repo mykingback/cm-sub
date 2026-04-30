@@ -13,5 +13,5 @@ if %errorlevel% EQU 1 (
     echo ========== Sync Success ==========
 )
 :: 设置间隔，这里设20秒
-timeout /t 360 /nobreak >nul
+timeout /t 361 /nobreak >nul
 goto loop
