@@ -1,0 +1,8 @@
+# 不想同步的文件
+root.json
+sub-store.bundle.js
+sub-store.json
+sub-store.log
+ACL4SSR_Online_Full.yaml
+bdg.yaml
+auto.bat
