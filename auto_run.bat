@@ -1,41 +1,33 @@
 @echo off
-chdir /d "D:\APP6\cmJIEDIAN\output"
+cd /d "D:\APP6\cmJIEDIAN\output"
+
+:: 关闭换行符警告（彻底消除 LF/CRLF）
+git config core.autocrlf false
+git config core.safecrlf false
+
+:: ===== 固定混淆名（你自己的名字）=====
+set "SAFE_TXT=myking.txt"
+set "SAFE_YAML=mykingback.yaml"
 
 :loop
-:: ==============================================
-:: 自动生成随机混淆文件名
-:: ==============================================
-set "r1=%random%%random%%random%"
-set "r2=%random%%random%%random%"
-set "f1=cfg_%r1%.txt"
-set "f2=rule_%r2%.yaml"
+:: 生成固定混淆文件
+copy "base64.txt" "%SAFE_TXT%" >nul
+copy "mihomo.yaml" "%SAFE_YAML%" >nul
 
-:: ==============================================
-:: 复制原文件生成临时随机文件（本地原名不动）
-:: ==============================================
-copy "base64.txt" "%f1%" >nul
-copy "mihomo.yaml" "%f2%" >nul
-
-:: ==============================================
-:: 检测是否有变更，有变更才提交
-:: ==============================================
-git add .
+:: 只上传固定名，绝对安全
+git add "%SAFE_TXT%" "%SAFE_YAML%"
 git diff --cached --quiet
-if %errorlevel% EQU 1 (
-    git commit -m "Auto Sync | %date% %time% | Confused Name"
-    git push origin master
-    echo.
-    echo ========== 同步成功：%f1% %f2% ==========
+if %errorlevel% equ 1 (
+    git commit -m "auto sync fixed"
+    git push -q origin master
+    echo 同步成功：%SAFE_TXT% %SAFE_YAML%
 )
 
-:: ==============================================
-:: 删除临时文件，不留痕迹
-:: ==============================================
-del "%f1%" 2>nul
-del "%f2%" 2>nul
+:: 删除临时文件
+del "%SAFE_TXT%" 2>nul
+del "%SAFE_YAML%" 2>nul
 
-:: ==============================================
-:: 等待 360 秒（6分钟）后再次循环
-:: ==============================================
-timeout /t 360 /nobreak >nul
+:: 修复 timeout 兼容问题（60秒 = 1分钟，可自己改）
+timeout 60 >nul
+
 goto loop
