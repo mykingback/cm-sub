@@ -1,8 +1,8 @@
-﻿# 不想同步的文件
+﻿# 你不想上传的文件
 root.json
-sub-store.bundle.js
 sub-store.json
+sub-store.bundle.js
 sub-store.log
-ACL4SSR_Online_Full.yaml
-bdg.yaml
+node.exe
 auto.bat
+ACL4SSR_Online_Full.yaml
