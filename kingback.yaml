@@ -7,34 +7,8 @@ proxies:
     transport: TCP
     type: mieru
     username: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b6f2a6c8-afea-476f-aeb7-206b524637d7
-    port: 38014
-    ports: 32000-39000
-    server: hk.jiasuqidizhi.sbs
-    skip-cert-verify: false
-    sni: hk.jiasuqidizhi.sbs
-    tfo: true
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT-DE"
-    obfs: ''
-    obfs-password: ''
-    password: 2545ab46-6306-4f2b-badd-5531f384d55f
-    port: 4433
-    server: 185.228.139.247
-    skip-cert-verify: true
-    sni: de2.xiaoliyu.cyou
-    type: hysteria2
-    up: ''
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|1.3MB/s|GPT-HK|YT-HK|NF|D+"
+    name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s|GPT⁺-HK|YT-HK|NF|D+|11%"
     network: ws
     port: 443
     server: 43.168.16.112
@@ -49,38 +23,8 @@ proxies:
       path: /proxyip=ProxyIP.CMLiussss.net
     servername: sni.skylee4.cloudns.ch
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
-    network: ws
-    port: 443
-    server: 64.186.234.243
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-    ws-opts:
-      headers:
-        Host: sni.skylee4.cloudns.ch
-      path: /proxyip=ProxyIP.CMLiussss.net
-    servername: sni.skylee4.cloudns.ch
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|2.3MB/s|GPT⁺|YT-US|NF|D+|GM-US|11%"
-    network: ws
-    port: 8443
-    server: 154.26.184.229
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-    ws-opts:
-      headers:
-        Host: sni.skylee4.cloudns.ch
-      path: /proxyip=ProxyIP.CMLiussss.net
-    servername: sni.skylee4.cloudns.ch
-  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|3.2MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|11%"
+    name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG"
     network: ws
     port: 443
     server: youxuan.cf.090227.xyz
@@ -97,49 +41,488 @@ proxies:
       path: /@Marisa_kristi
     xudp: true
     servername: uq2ox3bplnlgtr.myto.ip-ddns.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|4.3MB/s|3.0MB/s"
-    network: ws
-    port: 443
-    server: mfa.gov.ua
+  - client-fingerprint: ios
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s|GPT⁺-US|YT-US|NF|42%"
+    port: 55315
+    reality-opts:
+      public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+      short-id: "4bcbc85d"
+    server: 216.23.108.4
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
+    uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+    network: tcp
+    servername: download.windowsupdate.com
+  - delay: 242
+    name: "\U0001F1ED\U0001F1F0HK_2|2.5MB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 43.168.16.112
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
     ws-opts:
       headers:
-        Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - alterId: 0
+    cipher: ''
+    client-fingerprint: random
+    name: "\U0001F1EC\U0001F1E7GB_1|3.6MB/s|GPT⁺-GB|YT-GB|NF-GB|GM-GB|3.2MB/s"
+    network: ws
+    port: 443
+    server: freeyx.cloudflare88.eu.org
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
+    ws-opts:
+      headers:
+        Host: do-lon1.862400.xyz
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    servername: do-lon1.862400.xyz
+  - client-fingerprint: random
+    name: "\U0001F1EE\U0001F1F3IN_1|1.2MB/s|GPT⁺-IN|YT-IN|NF-IN|GM-IN"
+    network: ws
+    port: 443
+    server: freeyx.cloudflare88.eu.org
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
+    ws-opts:
+      headers:
+        Host: do-blr1.862400.xyz
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    servername: do-blr1.862400.xyz
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7FR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EE\U0001F1F3IN_2|2.0MB/s|GPT⁺-IN|YT-CA|NF-IN|GM-CA"
+    network: ws
+    port: 16626
+    server: planb.mojcn.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+    ws-opts:
+      headers:
+        HOST: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+        Host: planb.mojcn.com
+      path: /
+    servername: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+  - cipher: none
+    name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s|YT-KR|NF|D+|GM-KR"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      tls: true
+    port: 29090
+    server: 210.99.72.52
+    type: ss
+    udp: true
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 1000
+    name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 500
+  - delay: 955
+    name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|YT-DE|NF|D+|GM-DE"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 46.225.31.235
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - client-fingerprint: ios
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s|GPT⁺-US|YT-US|NF|42%"
+    network: tcp
+    port: 55315
+    reality-opts:
+      public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+      short-id: "4bcbc85d"
+    server: 216.23.108.4
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+    xudp: true
+    servername: download.windowsupdate.com
+  - name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s|GPT⁺-JP|YT-JP|NF|GM-JP"
+    obfs: salamander
+    obfs-password: cry_me_a_r1ver_2026
+    password: strong-secret-pass-777
+    port: 444
+    server: 45.12.134.57
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+  - cipher: none
+    name: "\U0001F1F0\U0001F1F7KR_2|3.1MB/s|YT-KR|NF|D+|GM-KR"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: 0
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      skip-cert-verify: false
+      tls: true
+    port: 10912
+    server: 218.150.34.228
+    skip-cert-verify: false
+    type: ss
+    udp: false
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s|GPT⁺-NL|YT-RU|D+|0%"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 29900
+    server: 178.18.147.66
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    tfo: false
+    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7FR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F8\U0001F1ECSG_2|1.3MB/s|GPT-AS|NF-AU|D+|0%"
+    network: ws
+    port: 16618
+    server: m.cnmjin.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+    ws-opts:
+      headers:
+        HOST: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+        Host: m.cnmjin.net
+      path: /
+    servername: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7FR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_3|2.0MB/s|YT-CN"
+    network: ws
+    port: 16632
+    server: m.cnmjin.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+    ws-opts:
+      headers:
+        HOST: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+        Host: m.cnmjin.net
+      path: /
+    servername: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7FR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s|GPT⁺-TW|NF-AU|D+|GM-TW|0%"
+    network: ws
+    port: 16616
+    server: m.cnmjin.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+    ws-opts:
+      headers:
+        HOST: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+        Host: m.cnmjin.net
+      path: /
+    servername: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_4|2.2MB/s|GPT-SG|YT-HK|NF|D+|11%"
+    network: ws
+    port: 2053
+    server: 154.12.188.42
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_4|1.9MB/s|GPT-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 443
+    server: 69.63.194.155
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 443
+    server: 38.95.77.69
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_6|1.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 443
+    server: 154.17.5.106
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_7|2.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 443
+    server: 154.17.31.82
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_8|2.6MB/s|GPT⁺|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 8443
+    server: 154.17.3.247
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_9|2.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 443
+    server: 209.209.59.191
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_10|1.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 8443
+    server: 64.186.248.118
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_11|1.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 8443
+    server: 64.186.245.91
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_12|1.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 443
+    server: 103.91.219.252
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_13|2.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 443
+    server: 154.17.5.177
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_14|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 8443
+    server: 38.59.241.94
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_15|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 8443
+    server: 154.26.181.106
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: sni.skylee4.cloudns.ch
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: sni.skylee4.cloudns.ch
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_3|2.2MB/s|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2096
+    server: 172.64.149.54
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /tr
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_2|1.3MB/s|YT-SG|11%"
-    network: ws
-    port: 443
-    server: store.ubi.com
+    encryption: >-
+      mlkem768x25519plus.native.0rtt.0Rs8kQdBBMcc2SywqxkhzNVVzyIt_OZaYDNplvTPJKOwxAumLyogdAmy-lLJdlpIerxoMMZs2dlOCoI2H_igvKVg-1lc8Pge2EY-eki2tMPCzEhec7hFnVoDRydhygEXaAaebBpipjMntKVHqLJzwKomw5d-O0kAGaiF5nYPi-SU3NEBAXUPEWi9nMZeOEYPzzthXAcIVWw7yDlrGrOJQSVRyNmcUppT9hAwoNMPe2O5z0IN3rOdd7c3soKJ8oU6gwY38ynGbMEXGQqIBRWeYPYaptddWUZP28tus9xTwKQkIfeWWjsGOZcqGJMRRPevlIxRbfcAAJuCeTiz4yErDFsoMBYdzQl3BzIIcimWDEQIXZJCR6yyLSyJj8Fva7AgcAeg5BZs6_ZQdQFZfZpwjrwmp1kbdakCf-AzR9zBrOtR35IElzgBsgavbgZVY4B1THZ7DvFQVAq3hupm6_gaAaxg42qsleKyzPEs00VY-8DLRjauukNzTigjhfqom8liJnp8aALEnXhu7rdPIWuM91WEz4uTmbxBvARzuUAe7LceQtqiaHmebrp8N0mOKsSyh2PDVAmbWtjHCXJeDhhCMPUYXuiwUVICeUZV1TZxjmZ_xFFL8JZ8vAtewzs9AkiLXJaHNdIBbQRW5qx5BQfMM5vKjYhiXCxJugxu0zq57ksRxsF68oSW0jWbHXaF9EY91ABSZystAjitddC6QcGOUtqn6giKSVs2RXwEeNqZEsEELahYcPtM_PmTlXG-3pFfXalmcpC6bcVl14JLgkykbEtDy3qhBNaUa4osqDu4g8EgRVVuJlCFEcOW-qsQZedzkuhXa2UrUSgNBfVMYXCq16iiD6WKyVVww8CKj_WsPlyNrKIdu8RKENo_HZHN5gPEkgIGWvdpUVyJVbMHlGQ8wVKFDMgn3TyCmCx2_dXM0_eQDqjI3mXAonbAoFttwDhfbpcK4FjPWSkHZrMfAQU1QeodFxqBvBe8MMw1bLSu_mE8beORjEpmtWFr08O0zeUqBkKdOBwahQnB7mBx17JnjYSH0KZT2KF29SiBudHKz7mbThIxhglQH1hSfmSWs0k_d1uCR9Qvylsns9a3j4uwcvUFtZam7iVk2HxG-vMOihIYYomSALwNU0IN01Z3qddbW5uDdtIE0yA2fVVOxjMKVMeYybtarviaCdfNmvyJ4MrJUzoS82cp6TuOYgMZ8hosGMOH1xTMCZIMc9mf4UCRJqA3cRMH0PFj_ugQ62ohDld1dyZADdQx2igtUoYnjLKcIHVdTOp36TqaofugLKwF_aJSUmhi_Kheaju28kZskBaebUqT9VPBqcqYozdvXeeG8hUT6eiMAKSML4jHIJeYOpjOHhYNUEm9b4ATJOwstyQgQmE-P3teIQeYYRcimLpjCTczISEQJcUg68e3CgA8GCoLIaZVsmYKDMxbPJu7bWygU5bBH0Gc6sqf7uNy3kI0nEtAGNAUs6y9TFROQ2BgNeSMucRVNXZ1ePpJs8mx_xRn2ODAn0hImPlLiuOHniCPE_zni6TSyL8Typ11OvyVBIrIrAxWZwREOPs5lXV17t8
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s|GPT⁺-NL|YT-CN|NF|D+|0%"
+    network: xhttp
+    port: 54582
+    reality-opts:
+      public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
+      short-id: "225e2cc8"
+    server: 89.144.35.230
     tls: true
     type: vless
     udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
+    uuid: 5cfc52bc-e701-4160-89df-930a0c040576
+    xhttp-opts:
+      path: /5cfc52bc-e701-4160-89df-930a0c040576-xh
+    xudp: true
+    servername: apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E8\U0001F1EDCH_1|1.8MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|0%"
+    network: ws
+    port: 8443
+    server: 104.19.229.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: 58fbbc47-237d-4bc2-a8c3-6db623585a1b
     ws-opts:
       headers:
-        Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+        Host: Kingdom.turbooo-server.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /@Marisa_kristi
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: /
     xudp: true
-    servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+    servername: Kingdom.turbooo-server.com
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_3|2.9MB/s|GPT-SG|YT-HK|NF|D+|11%"
+    name: "\U0001F1ED\U0001F1F0HK_5|2.0MB/s|GPT-HK|YT-HK|NF|D+"
     network: ws
-    port: 443
-    server: 8.223.63.189
+    port: 2053
+    server: 154.12.188.42
     skip-cert-verify: false
     tfo: false
     tls: true
@@ -150,347 +533,173 @@ proxies:
         Host: 8.868001.xyz
       path: /proxyip=ProxyIP.CMLiussss.net
     servername: 8.868001.xyz
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b6f2a6c8-afea-476f-aeb7-206b524637d7
-    port: 33163
-    ports: 32000-39000
-    server: hk.jiasuqidizhi.sbs
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_16|2.1MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 443
+    server: 69.63.194.155
     skip-cert-verify: false
-    sni: hk.jiasuqidizhi.sbs
-    tfo: true
-    type: hysteria2
-    up: ''
-  - cipher: none
-    delay: 1580
-    name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|YT-KR|GM-KR"
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
-      skip-cert-verify: true
-      tls: true
-    port: 25565
-    server: 59.31.102.62
-    type: ss
-    udp: true
-  - delay: 1166
-    name: "\U0001F1F0\U0001F1F7KR_2|1.5MB/s|YT-KR|NF|D+|GM-KR"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 7778
-    server: 146.56.113.221
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
-  - client-fingerprint: random
-    name: "\U0001F1E6\U0001F1FAAU_1|3.1MB/s|GPT⁺-AU|YT-AU|NF-AU|GM-AU"
-    network: ws
-    port: 443
-    server: freeyx.cloudflare88.eu.org
-    skip-cert-verify: true
     tfo: false
     tls: true
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: do-syd1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-syd1.862400.xyz
-  - client-fingerprint: random
-    name: "\U0001F1E8\U0001F1E6CA_1|3.9MB/s|GPT⁺-CA|YT-CA|NF-CA|GM-CA"
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_17|2.7MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
-    port: 443
-    server: freeyx.cloudflare88.eu.org
-    skip-cert-verify: true
+    port: 8443
+    server: 69.63.199.39
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: do-tor1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-tor1.862400.xyz
-  - client-fingerprint: random
-    name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s|GPT⁺-DE|NF|GM-DE"
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_18|2.8MB/s|GPT⁺-US|NF|GM-US|11%"
     network: ws
     port: 443
-    server: ct.877774.xyz
-    skip-cert-verify: true
+    server: 38.95.77.69
+    skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: do-fra1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-fra1.862400.xyz
-  - encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-    name: "\U0001F1E8\U0001F1EDCH_1|2.0MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|0%"
-    network: http
-    port: 22
-    server: 172.65.111.43
-    type: vless
-    udp: true
-    uuid: monacoVPN
-    xudp: true
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_3|4.2MB/s|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1FA\U0001F1F8US_19|2.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
     port: 443
-    server: 108.162.196.0
+    server: 154.17.5.106
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|2.4MB/s|YT-JP|NF|D+|GM-JP"
+    name: "\U0001F1FA\U0001F1F8US_20|2.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
     network: ws
     port: 443
-    server: 172.64.53.177
+    server: 154.17.31.82
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.79 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_4|1.8MB/s|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1FA\U0001F1F8US_21|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
     port: 443
-    server: 188.164.248.15
+    server: 64.186.224.137
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s|YT-JP|NF|D+|GM-JP"
+    name: "\U0001F1FA\U0001F1F8US_22|2.1MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
+    network: ws
+    port: 8443
+    server: 64.186.245.91
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    ws-opts:
+      headers:
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_23|1.7MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
     port: 443
-    server: 108.162.198.243
+    server: 103.91.219.252
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_5|2.5MB/s|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1FA\U0001F1F8US_24|1.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
     port: 443
-    server: 188.164.248.131
+    server: 154.17.5.177
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_6|2.0MB/s|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1FA\U0001F1F8US_25|1.9MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
     port: 443
-    server: 188.164.248.129
+    server: 154.26.181.85
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_7|2.3MB/s|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1FA\U0001F1F8US_26|1.8MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|11%"
     network: ws
-    port: 443
-    server: 188.164.248.148
+    port: 8443
+    server: 38.59.241.94
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
     ws-opts:
       headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
+        Host: 8.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: 8.868001.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_8|1.3MB/s|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 443
-    server: 188.164.248.138
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_3|2.0MB/s|YT-JP|NF|D+|GM-JP"
-    network: ws
-    port: 443
-    server: 172.64.53.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: aniub1fbaf7e.a-niua.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: aniub1fbaf7e.a-niua.cc.cd
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_9|2.1MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|11%"
-    network: ws
-    port: 443
-    server: store.ubi.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_5|2.5MB/s|YT-CN|NF|D+|0%"
-    password: 6ff46e55-85e5-4b13-8102-0f3d41c71113
-    port: 49213
-    server: xiaozhu1.kkieo555.cn
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: xiaozhu1.kkieo555.cn
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_4|2.0MB/s|GPT⁺-JP|YT-CN|NF|0%"
-    password: 6ff46e55-85e5-4b13-8102-0f3d41c71113
-    port: 41273
-    server: xiaozhu1.kkieo555.cn
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: xiaozhu1.kkieo555.cn
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_10|1.4MB/s|GPT⁺-TW|YT-SG|NF|GM-SG|0%"
+    name: "\U0001F1F8\U0001F1ECSG_4|2.3MB/s|GPT⁺|YT-SG|D+|GM-SG|0%"
     password: 6ff46e55-85e5-4b13-8102-0f3d41c71113
     port: 41277
     server: xiaozhu1.kkieo555.cn
