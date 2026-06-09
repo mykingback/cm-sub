@@ -1,49 +1,9 @@
 proxies:
   - alpn:
-      - h2%2Chttp%2F1.1
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s|GPT⁺-US|YT-CN|NF|D+|100%"
-    network: ws
-    port: 8443
-    server: 64.186.237.92
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 04bf8a78-4beb-4f7a-a6a4-f9489ff1cf88
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: huston.trevely.de5.net
-      max-early-data: 2560
-      path: /
-    xudp: true
-    servername: huston.trevely.de5.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s|GPT⁺-JP|YT-US|NF|D+|GM-US|13%"
-    network: ws
-    port: 10101
-    server: 69.63.218.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: r8wez3psbuhgs6lgju.sate.qzz.io
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: r8wez3psbuhgs6lgju.sate.qzz.io
-  - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_3|2.6MB/s|GPT⁺-US|YT-CN|NF|D+|100%"
+    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s|GPT⁺-US|YT-CN|NF|D+|100%"
     network: ws
     port: 80
     server: cdns.doon.eu.org
@@ -59,52 +19,11 @@ proxies:
       max-early-data: 2560
       path: /
     xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s|GPT⁺-JP|YT-US|NF|D+|GM-US|13%"
-    network: ws
-    port: 10101
-    server: 69.63.218.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  - alpn:
-      - h2
-      - http/1.1
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s|GPT|48%"
-    network: ws
-    port: 443
-    server: cdns.doon.eu.org
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 04bf8a78-4beb-4f7a-a6a4-f9489ff1cf88
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: huston.trevely.de5.net
-      max-early-data: 2560
-      path: /
-    xudp: true
-    servername: huston.trevely.de5.net
   - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_6|3.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    name: "\U0001F1FA\U0001F1F8US_2|3.1MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
     network: ws
     port: 80
     server: cdns.doon.eu.org
@@ -120,133 +39,8 @@ proxies:
       max-early-data: 2560
       path: /
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 443
-    server: 188.164.248.147
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: aniue6639f3e.a-niu-ge.ccwu.cc
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: aniue6639f3e.a-niu-ge.ccwu.cc
-  - name: "\U0001F1F8\U0001F1ECSG_2|2.1MB/s|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 443
-    server: 8.39.125.88
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: aniue6639f3e.a-niu-ge.ccwu.cc
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: aniue6639f3e.a-niu-ge.ccwu.cc
-  - name: "\U0001F1F8\U0001F1ECSG_3|2.7MB/s|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 443
-    server: 8.35.211.38
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: aniue6639f3e.a-niu-ge.ccwu.cc
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: aniue6639f3e.a-niu-ge.ccwu.cc
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_4|3.1MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    port: 443
-    server: www.shopify.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: uq2ox3bplnlgtr.myto.ip-ddns.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: uq2ox3bplnlgtr.myto.ip-ddns.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_5|3.3MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 443
-    server: store.ubi.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: uq2ox3bplnlgtr.myto.ip-ddns.com
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: uq2ox3bplnlgtr.myto.ip-ddns.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_7|2.9MB/s|GPT|YT-US|NF|D+|GM-US|13%"
-    network: ws
-    port: 37811
-    server: 154.17.237.73
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: uq2ox3bplnlgtr.myto.ip-ddns.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /@Marisa_kristi
-    xudp: true
-    servername: uq2ox3bplnlgtr.myto.ip-ddns.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: '@smartconfigs-950|1.4MB/s'
-    network: ws
-    port: 443
-    server: another-cf.dnsyes.kawaii520.icu
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7b3c9cec-6a21-4d57-b9c9-383d519e0b27
-    ws-opts:
-      headers:
-        Host: sd5488ghf26dfsae.another-appleid.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /
-    xudp: true
-    servername: sd5488ghf26dfsae.another-appleid.ccwu.cc
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|GPT⁺-JP|YT-KR|NF|D+|GM-KR|13%"
+    name: "\U0001F1F0\U0001F1F7KR_1|2.2MB/s|GPT|YT-KR|NF|D+|GM-KR"
     network: ws
     port: 10891
     server: 165.246.171.218
@@ -263,6 +57,518 @@ proxies:
       path: /@Marisa_kristifp=chromefp=chrome
     xudp: true
     servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F9\U0001F1F7TR_1|1.8MB/s|GPT⁺-TR|YT-TR|NF|GM-TR"
+    network: xhttp
+    port: 8443
+    server: 194.36.55.163
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6585a62b-4d8b-48cc-bdad-e2542504d748
+    xhttp-opts:
+      host: Itsrezu2.dr-ping.com
+      mode: auto
+      path: /
+    xudp: true
+    servername: Itsrezu2.dr-ping.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: xhttp
+    port: 443
+    server: 45.131.6.203
+    tls: true
+    type: vless
+    udp: true
+    uuid: Telegram-Parsashonam-12
+    xhttp-opts:
+      host: p4r34m.hendevaneh.sbs
+      mode: auto
+      path: /p4r34m
+    xudp: true
+    servername: p4r34m.hendevaneh.sbs
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s|GPT⁺-TW|NF|D+|0%"
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 47909
+    server: 155.117.198.82
+    skip-cert-verify: true
+    sni: is.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+    network: tcp
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F1\U0001F1F9LT"
+    name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
+    password: 8NsJfjFnM3MwC_ZD2MdzpBRX10Rmbuja
+    port: 51523
+    server: us.moktana.app
+    type: ss
+  - country: "\U0001F1FA\U0001F1F8US"
+    fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s|GPT⁺-US|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    port: 2095
+    server: www.shopify.com
+    skip-cert-verify: true
+    type: vless
+    udp: true
+    uuid: ''
+    ws-opts:
+      headers:
+        Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+      path: /
+    servername: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+  - country: "\U0001F3C1ZZ"
+    fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_2|3.8MB/s|GPT⁺-US|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    port: 2095
+    server: cf.090227.xyz
+    skip-cert-verify: true
+    type: vless
+    udp: true
+    uuid: ''
+    ws-opts:
+      headers:
+        Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+      path: /
+    servername: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP_1|1.9MB/s|GPT⁺-JP|YT-JP|NF|GM-JP|0%"
+    network: tcp
+    port: 37478
+    reality-opts:
+      public-key: gwRoOSyzoJalrmAP6BWUUC1s7jfqBRS9LhIrYvibFlg
+      short-id: "cc0b9c5e3dde06"
+    server: 13.115.231.90
+    tls: true
+    type: vless
+    udp: true
+    uuid: 22f1726b-0a24-414b-8901-3c1d053c1adb
+    xudp: true
+    servername: www.tesla.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP_2|1.2MB/s|GPT⁺-JP|YT-JP|NF|GM-JP|2%"
+    network: tcp
+    port: 57921
+    reality-opts:
+      public-key: MZUXW6zSUtYRBiP7Zu7v6A5AjhrbSgOOz731CJhE3EQ
+      short-id: "2c35f2ac05bf15a0"
+    server: 13.193.215.148
+    tls: true
+    type: vless
+    udp: true
+    uuid: f4e306dd-7919-41a1-bc29-5a37408e92a6
+    xudp: true
+    servername: www.nvidia.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ljfxz
+    name: "\U0001F1F9\U0001F1EDTH_1|2.4MB/s|GPT⁺-TH|YT-TH|NF|GM-TH|0%"
+    network: grpc
+    port: 36792
+    server: 64.186.248.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: efa569c6-c627-39d0-8d4f-6c5d730b5894
+    xudp: true
+    servername: t1.feiyue706.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F9\U0001F1F7TR_2|2.0MB/s|GPT⁺-TR|YT-TR|NF|GM-TR"
+    network: xhttp
+    port: 8443
+    server: 45.131.4.173
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6585a62b-4d8b-48cc-bdad-e2542504d748
+    xhttp-opts:
+      host: Itsrezu2.dr-ping.com
+      mode: auto
+      path: /
+    xudp: true
+    servername: Itsrezu2.dr-ping.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_2|2.8MB/s|GPT⁺-DE|YT-DE|NF|D+|14%"
+    obfs: ''
+    obfs-password: ''
+    password: miaoge110
+    port: 51511
+    server: 5.45.100.100
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - alpn:
+      - h2%2Chttp%2F1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    port: 8443
+    server: 154.21.89.103
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c446067c-191b-4454-9033-d830f9a60620
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: losangeles.trevely.de5.net
+      max-early-data: 2560
+      path: /
+    xudp: true
+    servername: losangeles.trevely.de5.net
+  - alpn:
+      - h2%2Chttp%2F1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    port: 8443
+    server: 64.186.238.108
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c446067c-191b-4454-9033-d830f9a60620
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: losangeles.trevely.de5.net
+      max-early-data: 2560
+      path: /
+    xudp: true
+    servername: losangeles.trevely.de5.net
+  - alpn:
+      - h2%2Chttp%2F1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_6|1.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    port: 8443
+    server: 64.186.236.184
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c446067c-191b-4454-9033-d830f9a60620
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: losangeles.trevely.de5.net
+      max-early-data: 2560
+      path: /
+    xudp: true
+    servername: losangeles.trevely.de5.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_7|1.3MB/s|GPT⁺-US|YT-US|NF|GM-US|51%"
+    network: xhttp
+    port: 443
+    server: cfb.sororain.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7aa46768-527b-44c3-b367-74d95bb083b5
+    xhttp-opts:
+      host: usrna.osaip.net
+      mode: auto
+      path: /api/v1/upload
+    xudp: true
+    servername: usrna.osaip.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_8|1.9MB/s|GPT⁺-US|YT-US|NF|GM-US|51%"
+    network: xhttp
+    port: 443
+    server: cfc.sororain.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7aa46768-527b-44c3-b367-74d95bb083b5
+    xhttp-opts:
+      host: usrna.osaip.net
+      mode: auto
+      path: /api/v1/upload
+    xudp: true
+    servername: usrna.osaip.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s|GPT⁺-US|YT-US|NF|GM-US|51%"
+    network: xhttp
+    port: 443
+    server: cfb.sororain.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ec2006d2-3bcf-4e25-8435-4df7f0db0ac0
+    xhttp-opts:
+      host: usrna.osaip.net
+      mode: auto
+      path: /api/v1/upload
+    xudp: true
+    servername: usrna.osaip.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_10|1.4MB/s|GPT⁺-US|YT-US|NF|GM-US|51%"
+    network: xhttp
+    port: 443
+    server: cfc.sororain.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ec2006d2-3bcf-4e25-8435-4df7f0db0ac0
+    xhttp-opts:
+      host: usrna.osaip.net
+      mode: auto
+      path: /api/v1/upload
+    xudp: true
+    servername: usrna.osaip.net
+  - alpn:
+      - h2%2Chttp%2F1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_11|1.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    port: 443
+    server: 64.186.233.224
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c446067c-191b-4454-9033-d830f9a60620
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: losangeles.trevely.de5.net
+      max-early-data: 2560
+      path: /
+    xudp: true
+    servername: losangeles.trevely.de5.net
+  - alpn:
+      - h2%2Chttp%2F1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_12|1.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    port: 8443
+    server: 64.186.242.138
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c446067c-191b-4454-9033-d830f9a60620
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: losangeles.trevely.de5.net
+      max-early-data: 2560
+      path: /
+    xudp: true
+    servername: losangeles.trevely.de5.net
+  - alpn:
+      - h2%2Chttp%2F1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_13|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    port: 8443
+    server: 154.26.184.229
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c446067c-191b-4454-9033-d830f9a60620
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: losangeles.trevely.de5.net
+      max-early-data: 2560
+      path: /
+    xudp: true
+    servername: losangeles.trevely.de5.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_14|1.9MB/s|GPT⁺-US|YT-US|NF|GM-US|51%"
+    network: xhttp
+    port: 443
+    server: cfa.sororain.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 77b75ed1-3837-41ab-bfc0-e058959db765
+    xhttp-opts:
+      host: usrna.osaip.net
+      mode: auto
+      path: /api/v1/upload
+    xudp: true
+    servername: usrna.osaip.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_15|2.6MB/s|GPT⁺-US|YT-US|NF|D+|10%"
+    network: xhttp
+    port: 443
+    server: cfd.sororain.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 77b75ed1-3837-41ab-bfc0-e058959db765
+    xhttp-opts:
+      host: usbad.osaip.net
+      mode: auto
+      path: /api/v1/upload
+    xudp: true
+    servername: usbad.osaip.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_3|1.4MB/s|YT-DE|NF|D+|GM-DE"
+    network: ws
+    port: 20205
+    server: 146.70.20.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: 020g5uxcxmqlndg.luyuju.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7KR_2|2.9MB/s|YT-KR|NF|D+|GM-KR"
+    network: ws
+    port: 15807
+    server: 138.2.112.117
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: 020g5uxcxmqlndg.luyuju.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7KR_3|1.5MB/s|YT-KR|NF|D+|GM-KR"
+    network: ws
+    port: 627
+    server: 140.245.75.37
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: 020g5uxcxmqlndg.luyuju.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_16|2.7MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 10101
+    server: 69.63.218.168
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: 020g5uxcxmqlndg.luyuju.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_17|1.4MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 56671
+    server: 173.249.210.53
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: 020g5uxcxmqlndg.luyuju.dpdns.org
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|1.4MB/s|GPT⁺-NL|YT-US|NF|D+|GM-DE|42%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+      short-id: ''
+    server: ru57.whost-solutions.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea
+    xudp: true
+    servername: ru21.whost-solutions.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_2|1.3MB/s|GPT⁺-DE|YT-US|D+|GM-DE|42%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+      short-id: ''
+    server: ru58.whost-solutions.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea
+    xudp: true
+    servername: ru21.whost-solutions.ru
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
