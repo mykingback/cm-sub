@@ -1,24 +1,6 @@
 proxies:
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F7\U0001F1FARU_1|948KB/s|GPT-RU|YT-US|GM-TM"
-    network: xhttp
-    port: 443
-    server: 104.18.32.47
-    tls: true
-    type: vless
-    udp: true
-    uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: rus.aba-hum.store
   - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
     password: dongtaiwang.com
     port: 34567
     server: 157.254.223.44
@@ -29,75 +11,20 @@ proxies:
     name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s|GPT⁺-IE|YT-DE|NF-IE|GM-DE|0%"
     password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
     port: 8443
-    server: 162.249.124.99
-    skip-cert-verify: true
-    sni: mercedes-grape.yyuyy.com
-    type: hysteria2
-  - auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    name: "\U0001F1F7\U0001F1F4RO_2|2.0MB/s|GPT⁺-IE|YT-DE|NF-IE|GM-DE|0%"
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    port: 8443
     server: 162.249.124.102
     skip-cert-verify: true
     sni: mercedes-grape.yyuyy.com
     type: hysteria2
   - auth: 553e3253-c454-431d-a7e6-42bc06ea5e14
-    name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s|GPT⁺-DE|YT-RU|NF|5%"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s|GPT⁺-DE|YT-RU|NF|5%"
     password: 553e3253-c454-431d-a7e6-42bc06ea5e14
     port: 8443
     server: srvhy1.ezcon24.online
     skip-cert-verify: true
     sni: srvhy1.ezcon24.online
     type: hysteria2
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: update
-    name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s|GPT-US|YT-JP|NF-SG|D+|GM-JP|1%"
-    network: grpc
-    port: 10032
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: jp2-r.link-t7.com
-    tls: true
-    type: vless
-    uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-    servername: s0.awsstatic.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: update
-    name: "\U0001F1F0\U0001F1F7KR_1|982KB/s|YT-KR|NF-SG|D+|GM-KR|0%"
-    network: grpc
-    port: 10047
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: kr2-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-    servername: s0.awsstatic.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: update
-    name: "\U0001F1F0\U0001F1F7KR_2|2.1MB/s|YT-KR|NF-SG|D+|GM-KR|3%"
-    network: grpc
-    port: 10046
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: kr1-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-    servername: s0.awsstatic.com
   - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    name: "\U0001F1F1\U0001F1FBLV_1|2.1MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
+    name: "\U0001F1EC\U0001F1E7GB_2|1.1MB/s|GPT⁺-LV|YT-LV|NF-LV|GM-LV|0%"
     password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
     port: 8443
     server: 104.165.205.77
@@ -105,31 +32,7 @@ proxies:
     sni: speedtestmark.com
     type: hysteria2
   - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    name: "\U0001F1EC\U0001F1E7GB_2|2.3MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
-    password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    port: 9443
-    server: 104.165.205.226
-    skip-cert-verify: true
-    sni: onecloudstream.com
-    type: hysteria2
-  - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    name: "\U0001F1EC\U0001F1E7GB_3|2.3MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
-    password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    port: 8443
-    server: 104.165.205.65
-    skip-cert-verify: true
-    sni: speedtestmark.com
-    type: hysteria2
-  - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    name: "\U0001F1EC\U0001F1E7GB_4|2.2MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
-    password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    port: 8443
-    server: 104.165.205.226
-    skip-cert-verify: true
-    sni: speedtestmark.com
-    type: hysteria2
-  - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    name: "\U0001F1F1\U0001F1FBLV_2|2.4MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
+    name: "\U0001F1F1\U0001F1FBLV_1|1.8MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
     password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
     port: 8443
     server: 104.165.205.64
@@ -137,195 +40,199 @@ proxies:
     sni: speedtestmark.com
     type: hysteria2
   - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-    name: "\U0001F1EC\U0001F1E7GB_5|1.9MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
+    name: "\U0001F1EC\U0001F1E7GB_3|1.9MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
     password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
     port: 9443
     server: 104.165.205.239
     skip-cert-verify: true
     sni: onecloudstream.com
     type: hysteria2
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EASE_1|1.0MB/s|GPT-SE|YT-RU|NF|D+|10%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: g0mDPNlv3uOrnxXvBYP3cEjd0ewJuIFlBh93KE5bU3A
-      short-id: "d0ca141e839394a3"
-    server: dsech.mostserv.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 463a26c2-eba8-40ea-89c4-ee5c1373ccbe
-    servername: dsech.mostserv.xyz
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: update
-    name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s|GPT⁺-US|YT-SG|NF-SG|D+|GM-SG|1%"
-    network: grpc
-    port: 10039
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: sg4-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-    servername: d1.awsstatic.com
   - auth: 083417772bc618cd61f0cca23dd91680
-    name: "\U0001F1F9\U0001F1EDTH_1|2.6MB/s|GPT-NL|YT-RU|NF|0%"
+    name: "\U0001F1F9\U0001F1EDTH_1|2.1MB/s|GPT-NL|YT-RU|NF|0%"
     password: 083417772bc618cd61f0cca23dd91680
     port: 55443
     server: gorbachev-new-th.kvnfreetest.uk
     skip-cert-verify: true
     sni: gorbachev-new-th.kvnfreetest.uk
     type: hysteria2
+  - alpn:
+      - h3
+    auth: 09e4b638945d44bfa60b4fd00edad131
+    name: "\U0001F1E6\U0001F1F1AL_1|1.1MB/s|GPT⁺-AL|YT-US|NF-AL|6%"
+    obfs: salamander
+    obfs-password: gu74jg3ym0e21zco
+    password: 09e4b638945d44bfa60b4fd00edad131
+    port: 52000
+    server: assets.gateway-stream.com
+    skip-cert-verify: true
+    type: hysteria2
+    sni: assets.gateway-stream.com
+  - alpn:
+      - h3
+    auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    name: "\U0001F1E9\U0001F1F0DK_1|2.1MB/s|GPT⁺-DK|YT-RU|NF|D+|0%"
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    port: 443
+    server: dk86.mechvpn.online
+    skip-cert-verify: true
+    sni: dk86.mechvpn.online
+    type: hysteria2
+  - auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
+    name: "\U0001F1EC\U0001F1E7GB_4|2.5MB/s|GPT⁺-LV|YT-RU|NF-LV|0%"
+    password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
+    port: 8443
+    server: 104.165.205.225
+    skip-cert-verify: true
+    sni: speedtestmark.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s|YT-AE|NF|GM-AE|75%"
+    network: ws
+    password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+    port: 2053
+    server: cf.130209.xyz
+    skip-cert-verify: true
+    sni: v4.ipsb.us.ci
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: v4.ipsb.us.ci
+      path: /api/v2/check_update
   - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_1|970KB/s|GPT⁺-FR|YT-US|NF|D+"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.16.7.70
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /assignment
+  - name: "\U0001F1E9\U0001F1F0DK_2|1.7MB/s|GPT⁺-DK|YT-RU|NF|37%"
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: lsj1.mangshe.xyz
+    skip-cert-verify: true
+    sni: lsj1.mangshe.xyz
+    type: hysteria2
+  - client-fingerprint: firefox
     grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: movie
-    name: "\U0001F1FA\U0001F1F8US_2|988KB/s|YT-CN|NF-SG|0%"
+      grpc-service-name: neurex
+    name: "\U0001F1E7\U0001F1F7BR_1|891KB/s|YT-RU"
     network: grpc
-    port: 10239
+    port: 16923
     reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: us2-r.link-t7.com
+      public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+      short-id: "10ffb85da1c2d986"
+    server: 201.51.1.84
     tls: true
     type: vless
     udp: true
-    uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-    servername: s0.awsstatic.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s|GPT⁺-US|YT-CN|NF|D+|GM-US|0%"
-    network: ws
-    port: 16648
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 3e9bbbe9-24d4-4f17-8f39-63b59836e5c1
-    ws-opts:
-      headers:
-        Host: 76a0d7517e9ed01814349e6063c116ce.mobgslb.tbcache.com
-      path: /
+    uuid: ba222add-6ac1-45f1-9a18-f91cb38e324f
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|858KB/s|GPT⁺-FR"
-    network: ws
-    password: humanity
-    port: 443
-    server: 172.67.149.60
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_2|996KB/s|GPT⁺-FR|YT-US|NF|D+"
-    network: ws
-    password: humanity
-    port: 443
-    server: 104.26.14.137
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /assignment
+    servername: api-maps.yandex.ru
   - alpn:
-      - http/1.1
-      - h2
       - h3
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_3|1.8MB/s|GPT⁺-FR|YT-US|NF|D+"
-    network: ws
-    password: humanity
-    port: 443
-    server: 198.41.223.96
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/67.0.3396.99 Safari/537.36
-      path: /assignment
-  - down: ''
+    down: ''
     fingerprint: ''
-    name: "\U0001F1E6\U0001F1F1AL_1|976KB/s|GPT⁺-AL|YT-US|NF-AL|GM-AL|6%"
+    name: "\U0001F1E6\U0001F1F1AL_2|1.6MB/s|GPT⁺-AL|YT-US|NF-AL|6%"
     obfs: salamander
     obfs-password: gu74jg3ym0e21zco
-    password: 544a7fdaa05a4dbe868288f8a9fb023c
+    password: 09e4b638945d44bfa60b4fd00edad131
     port: 52000
     server: assets.gateway-stream.com
     skip-cert-verify: false
     sni: assets.gateway-stream.com
     type: hysteria2
     up: ''
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s|GPT⁺-US|YT-US|NF|GM-US|1%"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-us-006.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-006.fastervpn.world
+    type: hysteria2
+    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_1|2.7MB/s|GPT⁺-FI|YT-RU|NF|17%"
-    obfs: salamander
-    obfs-password: v8h63irhnay97090
-    password: 544a7fdaa05a4dbe868288f8a9fb023c
-    port: 52029
-    server: assets.gateway-stream.com
-    skip-cert-verify: false
+    name: "\U0001F1EC\U0001F1E7GB_5|1.7MB/s|GPT⁺-DE|YT-RU|NF|5%"
+    obfs: ''
+    obfs-password: ''
+    password: 130e6aab-9eba-441e-9021-22cbccc72832
+    port: 8443
+    server: srvhy1.ezcon24.online
+    skip-cert-verify: true
     sni: ''
     type: hysteria2
     up: ''
     disable-sni: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_2|2.1MB/s|GPT⁺-FI|YT-RU|NF|17%"
+    name: "\U0001F1FA\U0001F1F8US_4|2.8MB/s|GPT⁺-US|YT-US|NF|GM-US|44%"
     obfs: salamander
-    obfs-password: v8h63irhnay97090
-    password: 544a7fdaa05a4dbe868288f8a9fb023c
-    port: 52029
-    server: assets.gateway-stream.com
+    obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+    password: cd74c0a406664a5bc0bac098220a2468
+    port: 443
+    server: node1.sferavpn.pro
+    skip-cert-verify: false
+    sni: node1.sferavpn.pro
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_2|884KB/s|GPT⁺-FR|NF|D+"
+    network: ws
+    password: humanity
+    port: 443
+    server: join-telegram-channel.tirexnet.kdns.fr
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /assignment
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1F1AL_3|1.5MB/s|GPT⁺-AL|YT-US|NF-AL|6%"
+    obfs: salamander
+    obfs-password: gu74jg3ym0e21zco
+    password: 09e4b638945d44bfa60b4fd00edad131
+    port: 52000
+    server: 95.217.96.131
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1F1AL_4|826KB/s|GPT⁺-AL|YT-US|NF-AL|6%"
+    obfs: salamander
+    obfs-password: gu74jg3ym0e21zco
+    password: 09e4b638945d44bfa60b4fd00edad131
+    port: 52000
+    server: 95.217.96.131
     skip-cert-verify: false
     sni: assets.gateway-stream.com
     type: hysteria2
     up: ''
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: update
-    mode: gun
-    name: "\U0001F1F0\U0001F1F7KR_3|2.7MB/s|YT-KR|GM-KR|3%"
-    network: grpc
-    port: 10050
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: kr5-r.link-t7.com
-    serviceName: update
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-    servername: s0.awsstatic.com
   - encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_2|1.5MB/s|GPT|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s|GPT|YT-SG|NF-SG|D+|GM-SG|0%"
     network: ws
-    port: 2086
+    port: 8880
     server: 104.18.43.240
     type: vless
     udp: true
@@ -334,46 +241,20 @@ proxies:
       headers:
         Host: newvless2026.nova-b0f3f5.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: movie
-    name: "\U0001F1ED\U0001F1F0HK_1|2.3MB/s|YT-HK|NF-SG|D+|1%"
-    network: grpc
-    port: 10128
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: 18.163.80.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-    xudp: true
-    packet-encoding: xudp
-    servername: s0.awsstatic.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: update
-    name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s|GPT-US|YT-HK|NF-SG|D+|1%"
-    network: grpc
-    port: 10127
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: 18.162.41.55
-    tls: true
-    type: vless
-    udp: true
-    uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-    servername: s0.awsstatic.com
+  - name: "\U0001F1EB\U0001F1F7FR_3|2.5MB/s|GPT⁺-FR|YT-US|NF"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 60111
+    server: 62.210.7.139
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
